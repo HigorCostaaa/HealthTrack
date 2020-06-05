@@ -1,0 +1,46 @@
+.menu ul li{
+	background-color: #e60e1c;
+	float: left;
+	width: 450px;
+	height: 40px;
+	display: inline-block;
+	text-align: center;
+	line-height: 40px;
+	font-size: 30px;
+	position: relative;
+}
+
+.menu ul li:hover{
+	background-color: #cc4e55;
+}
+
+.menu ul{
+	padding: 0px;
+}
+
+.menu ul ul{
+	display: none;
+}
+
+.menu ul li:hover > ul{
+	display:block;
+}
+
+.menu ul ul ul{
+	margin-left: 451px;
+	top: 0px;
+	position: absolute;
+}
+
+.menu ul ul li:hover{
+	background-color: #873539;
+}
+
+.menu ul ul ul li:hover{
+	background-color: #591316;
+}
+
+.menu a{
+	color: white;
+	text-decoration: none;
+}
