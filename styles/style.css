@@ -77,17 +77,17 @@ body {
 }
 .btn-primary:hover {
     background-color: #fff;
-    color: #daa520;
+    color: #ff8c00;
 }
 .btn-second {
-    background-color: #daa520;
-    border: 1px solid #daa520;
+    background-color: #ff8c00;
+    border: 1px solid #ff8c00;
     transition: background-color .5s;
 }
 .btn-second:hover {
     background-color: #fff;
-    border: 1px solid #daa520;
-    color: #daa520;
+    border: 1px solid #ff8c00;
+    color: #ff8c00;
 }
 .first-content {
     display: flex;

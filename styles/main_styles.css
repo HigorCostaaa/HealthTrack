@@ -397,24 +397,13 @@ section
 	font-weight: 300;
 	text-transform: uppercase;
 }
-.navbar
+.main_nav
 {
 	margin-left: 10px;
-	
+
 }
-
-
-.navbar a {
-	float: left;
+.main_nav .subnavbtn {
 	font-size: 16px;
-	color: white;
-	text-align: center;
-	padding: 14px 16px;
-	text-decoration: none;
-  }
-  
-  .subnav .subnavbtn {
-	font-size: 16px;  
 	border: none;
 	outline: none;
 	color: white;
@@ -423,23 +412,22 @@ section
 	font-family: inherit;
 	margin: 0;
   }
-
-  .navbar a:hover, .subnav:hover .subnavbtn {
-	background-color: #fba40e;
-  }
-  
-  
   .subnav-content {
 	display: none;
 	position: absolute;
 	left: 0;
-	background-color: #fba40e;
 	width: 100%;
 	z-index: 1;
   }
   
-  .subnav-content a {
+  .subnav {
 	float: left;
+	overflow: hidden;
+  }
+
+
+  .subnav-content a {
+	
 	color: white;
 	text-decoration: none;
   }
@@ -448,13 +436,12 @@ section
 	background-color: #eee;
 	color: black;
   }
-
+  
   .subnav:hover .subnav-content {
 	display: block;
-	
   }
-
-
+  
+ 
 .main_nav ul li:not(:last-of-type)
 {
 	margin-right: 65px;
