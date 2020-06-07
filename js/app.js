@@ -8,7 +8,9 @@ var btnEntrar = document.querySelector("#entrar")
 var body = document.querySelector("body");
 
 btnEntrar.addEventListener("click", function(){
+    if(campoemail.valueOf != '' & campopass != '' ){
     location.href = "home.html";
+    }
 });
 
 btnSignin.addEventListener("click", function () {
