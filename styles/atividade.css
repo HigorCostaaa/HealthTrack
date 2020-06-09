@@ -1367,7 +1367,7 @@ section
     display: flex;
     flex-direction: column;
     margin-top: 60px;  
-    
+    box-sizing: 50px;
 }
 .formAtividade input, input:focus {
     height: 40px;
