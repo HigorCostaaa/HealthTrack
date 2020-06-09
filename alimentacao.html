@@ -13,7 +13,7 @@
     <link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/owl.theme.default.css">
     <link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/animate.css">
     <link href="plugins/colorbox/colorbox.css" rel="stylesheet" type="text/css">
-    <link rel="stylesheet" type="text/css" href="styles/atividade.css">
+    <link rel="stylesheet" type="text/css" href="styles/alimentacao.css">
     <link rel="stylesheet" type="text/css" href="styles/responsive.css">
     </head>
 
@@ -128,19 +128,29 @@
                     <div class="col-lg-6">
                         <div class="atividade_content">
                             <div class="section_title_container">
-                                <div class="section_title"><span>Configurar Percurso de Corrida</span></div>
+                                <div class="section_title"><span>Alimentação</span></div>
                             </div>
-                            <div class="text_highlight">Correr é uma ótima maneira de aumentar o seu nível de saúde. Pesquisas mostram que a corrida pode aumentar seus níveis de colesterol bom (HDL), além de ajudar a aumentar a função pulmonar. A corrida também pode impulsionar o sistema imunológico e reduzir o risco de desenvolver coágulos de sangue.</div>
+                            <div class="text_highlight">A rotina acelerada não deve ser desculpa para pular refeições ou substituí-las por alimentos calóricos durante todo o dia. Não ter tempo para comer é um hábito prejudicial à saúde e, consequentemente, ao desempenho profissional.</div>
+                            
 
-                            <div class="formAtividade">
+                            <div >
+                                <div class="fonterelogio">
+                                    
                                 <label class="label-input" for="">
-                                    <input id="Largada" type="texte" size="60" placeholder="largada">
+                                    <input class="relogio" id="SIS" type="time" placeholder="horas"> 
+                                    Horario da refeicao
                                 </label>
+                                    </div>
+                                <div class="formAtividade">
                                 <label class="label-input" for="">
-                                    <input id="Chegada" type="text" size="60"   placeholder="chegada">
+                                    <input id="DIA" type="number" min="1" placeholder="Calorias">
+                                </label> 
+                                <label class="label-input" for="">
+                                    <input id="PUL" type="text" min="1"placeholder="Aliento">
                                 </label>
 
-                                 <button class="buttonenter" id="entrar" type="submit"  class="btn btn-second">Correr</button>
+                                 <button class="buttonenter" id="entrar" type="submit"  class="btn btn-second">Registrar</button>
+                                </div>
 
                             </div>
                         </div>
@@ -151,7 +161,7 @@
                 <div class="container fill_height">
                     <div class="row fill_height">
                         <div class="col-lg-6 offset-lg-6 fill_height">
-                            <div class="atividade_image"><img src="images/a5.png" alt=""></div>
+                            <div class="atividade_image"><img src="images/a6.png" alt=""></div>
                         </div>
                         </div>
                     </div>
@@ -174,36 +184,38 @@
 					<div class="col">
 						<div class="section_title_container">
 							<div class="section_subtitle">Health Track</div>
-							<div class="section_title">Historico de atividades</div>
+							<div class="section_title">Historico Cardiaco</div>
                             <table>
                                 <tr>
                                     <th>Data</th>
-                                    <th>Quilometragem</th>
+                                    <th>Horario</th>
+                                    <th>Caloria</th>
                                     
                                 </tr>
                                 <tr><td>01/06/20</td>
-                                    <td>50 Km</td>
-                        
-                                </tr>
-                                <tr>
-                                    <td>02/06/20</td>
-                                    <td>80 Km</td>
+                                    <td>09:00</td>
+                                    <td>12800</td>
                                     
                                 </tr>
                                 <tr>
-                                    <td>03/06/20</td>
-                                    <td>100 Km</td>
-                                    
+                                    <td>01/06/20</td>
+                                    <td>10:00</td>
+                                    <td>8600</td>
+                                </tr>
+                                <tr>
+                                    <td>01/06/20</td>
+                                    <td>13:00</td>
+                                    <td>8000</td>
                                 </tr>
                                  <tr>
-                                    <td>04/06/20</td>
-                                    <td>10 KM</td>
-                                 
+                                    <td>01/06/20</td>
+                                    <td>20:00</td>
+                                    <td>85000</td>
                                 </tr>
                                  <tr>
-                                    <td>05/06/20</td>
-                                    <td>200 Km</td>
-                                 
+                                    <td>01/06/20</td>
+                                    <td>22:00</td>
+                                    <td>8400</td>
                                 </tr>
                             </table>
 						</div>
