@@ -1392,3 +1392,20 @@ input::-webkit-outer-spin-button,input::-webkit-inner-spin-button {
 ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
   color: #ff880f;
 }
+
+table {
+  width: 30%;
+    text-align: center;
+}
+
+th {
+  height: 0px;
+background-color: #ff880f;
+    color: white;
+    
+}
+tr:nth-child(even){background-color: #f2f2f2
+}
+tr{
+    font-weight: 900;
+}
