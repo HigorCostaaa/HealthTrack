@@ -10,7 +10,6 @@ var btnEntrar = document.querySelector("#entrar");
 var body = document.querySelector("body");
 
 btnEntrar.addEventListener('click', function(){
-     console.log(campoemail.value != "");
     if(campoemail.value != "" && campopass.value != ""  ){
         location.href = "home.html";
         console.log('depois')
